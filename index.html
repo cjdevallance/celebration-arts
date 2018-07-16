@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Celebration Arts</title>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+	<div class="logo">
+		<a href="index.html"><img src="images/celebration-arts-logo.png" alt="Celebration Arts" title="Celebration Arts"></a>
+	</div>
+
+	<div class="name">
+		Celebration<br>
+		Arts
+	</div>
+
+	<nav>
+	
+		<div class="menu">
+
+			<ul>
+			<li><a href="#">Shows & Events</a>
+				<ul class="first-ul">
+				<li class="first-li"><a href="#">Current Show</a></li>
+				<li><a href="#">Upcoming Shows</a></li>
+				<li><a href="#">Past Shows</a></li>
+				<li><a href="#">Street Cabaret</a></li>
+				<li><a href="#">All Events</a></li>
+				</ul>
+			</li>
+
+			<li><a href="donate.html">Support</a>
+				<ul class="first-ul">
+				<li class="first-li"><a href="donate.html">Donations</a></li>
+				<li><a href="#">Capital Campaign</a></li>
+				<li><a href="#">Sponsorships</a></li>
+				<li><a href="#">Volunteer</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Education & Classes</a>
+				<ul class="first-ul">
+				<li class="first-li"><a href="#">Choral</a></li>
+				<li><a href="#">Dance</a></li>
+				<li><a href="#">Theater</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">About</a>
+				<ul class="first-ul">
+				<li class="first-li"><a href="#">Who We Are</a></li>
+				<li><a href="#">Our Mission</a></li>
+				<li><a href="#">Our History</a></li>
+				<li><a href="#">Auditions</a></li>
+				<li><a href="#">Press & News</a></li>
+				<li><a href="#">Facilities & Rentals</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Contact & Visit</a></li>
+			</ul>
+
+		</div>
+
+		<div class="mobile-menu">
+
+			<div class="hamburger hamburger--plain" type="button" aria-label="Menu" aria-controls="navigation">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span> 
+				</span> &nbsp;<span class="mobile-menu-title">Menu</span>
+			</div>
+
+			<div class="navigation">
+				<ul>
+				<li><a href="#">Shows & Events</a>
+					<ul class="first-ul">
+					<li class="first-li"><a href="#">Current Show</a>
+					<li><a href="#">Upcoming Shows</a>
+					<li><a href="#">Past Shows</a>
+					<li><a href="#">Street Cabaret</a>
+					<li><a href="#">All Events</a></li>
+					</ul>
+				</li>
+	
+				<li><a href="donate.html">Support</a>
+					<ul class="first-ul">
+					<li class="first-li"><a href="donate.html">Donations</a></li>
+					<li><a href="#">Capital Campaign</a></li>
+					<li><a href="#">Sponsorships</a></li>
+					<li><a href="#">Volunteer</a></li>
+					</ul>	
+				</li>
+				<li><a href="#">Education & Classes</a>
+					<ul class="first-ul">
+					<li class="first-li"><a href="#">Choral</a></li>
+					<li><a href="#">Dance</a></li>
+					<li><a href="#">Theater</a></li>
+					</ul>
+				</li>
+				<li><a href="#">About</a>
+					<ul class="first-ul">
+					<li class="first-li"><a href="#">Who We Are</a></li>
+					<li><a href="#">Our Mission</a></li>
+					<li><a href="#">Our History</a></li>
+					<li><a href="#">Auditions</a></li>
+					<li><a href="#">Press & News</a></li>
+					<li><a href="#">Facilities & Rentals</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contact & Visit</a></li>
+				</ul>
+			</div>
+
+			<script>
+			var hamburger = document.querySelector(".hamburger");
+			var navigation = document.querySelector(".navigation");
+			hamburger.addEventListener("click", function() {
+				hamburger.classList.toggle("is-active");
+				navigation.classList.toggle("is-active");
+			});
+			navigation.addEventListener("click", function() {
+				hamburger.classList.toggle("is-active");
+				navigation.classList.toggle("is-active");
+			});
+			</script>
+
+		</div>
+
+		<div class="secondary-nav">
+			<ul>
+			<li><a href="#">Buy Tickets</a></li>
+			<li><a href="donate.html">Donate Now</a></li>
+			</ul>
+		</div>
+
+		<div class="social-media">
+			<a href="#"><img src="images/icon-facebook.png" alt="Facebook"></a> &nbsp;<a href="#"><img src="images/icon-twitter.png" alt="Twitter"></a>
+		</div>
+
+	</nav>
+
+	<div class="nav-bg">&nbsp;</div>
+
+</header>
+
+<section class="grid-homepage">
+
+	<div class="home-section-1">
+
+		<h1>Welcome to Celebration Arts</h1>
+
+		<p>We are a multi-cultural, multi-discipline performing arts organization located in Sacramento, California. Our mission is to provide training and performance opportunities for community residents in the areas of theater, dance and music. We strive to make art and its presentation accessible.</p>
+
+		<div class="current-show">
+
+			<div class="current-show-date-bar">
+				<span class="title">CURRENTLY SHOWING:</span> <span class="date">May 3rd through May 26th, 2018</span>
+			</div>
+
+			<div class="current-show-title-box">
+		
+				<div class="main-title">
+					<span class="title-small">A</span> <span class="title-big">SONG</span> <span class="title-small">FOR</span> <span class="title-big">CORETTA</span>
+				</div>
+
+				<p class="author">BY PEARL CLEAGE</p>
+
+				<p>A play about... fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+		
+				<p class="link"><a href="#">Learn More ››</a></p>
+
+				<button class="red">BUY TICKETS</button>
+
+			</div>
+
+			<div class="current-show-photo-box">
+				<div class="current-show-photo"></div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="home-section-2">
+
+		<h2 class="brown">Why Your Support Matters</h2>
+
+		<p>Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+		<a href="donate.html"><button class="brown">DONATE NOW</button></a>
+	
+		<hr class="styled">
+
+		<h2 class="fuschia">Upcoming Classes</h2>
+
+		<p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor.</p>
+
+		<button class="fuschia">VIEW SCHEDULE</button>
+
+	</div>
+
+	<div class="clearfix"></div>
+
+</section>
+
+<footer>
+
+	<div class="footer-left">
+		<p><b>CELEBRATION ARTS</b><br>
+		2727 B STREET • SACRAMENTO, CA • 95816<br>
+		BOX OFFICE: (916) 455-ARTS • (916) 455-2787<br>
+		<a href="mailto:INFO@CELEBRATIONARTS.NET">INFO@CELEBRATIONARTS.NET</a></p>
+	</div>
+
+	<div class="footer-right">
+		<p>FOLLOW US: &nbsp;<a href="#">FACEBOOK</a> &nbsp;<a href="#">TWITTER</a><br>
+		&copy; <script>new Date().getFullYear()>2010&&document.write(""+new Date().getFullYear());</script> CELEBRATION ARTS</p>
+	</div>
+
+</footer>
+
+</body>
+</html>
